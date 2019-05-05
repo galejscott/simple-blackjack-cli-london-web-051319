@@ -65,6 +65,6 @@ def runner
   # code runner here
   welcome
   sleep 1
-  
+  card_total = initial_round
 end
     
