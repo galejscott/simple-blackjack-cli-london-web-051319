@@ -45,7 +45,9 @@ def hit?
     
   elsif user_input == s 
   
-  else invalid_command
+  else
+    invalid_command
+  end
 end
 
 def invalid_command
