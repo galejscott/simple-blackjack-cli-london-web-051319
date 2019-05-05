@@ -67,6 +67,7 @@ def runner
   sleep 1
   card_total = initial_round
   until card_total > 21
-    card_total
+    card_total = hit?(card_total)
+    
 end
     
